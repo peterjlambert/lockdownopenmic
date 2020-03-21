@@ -46,7 +46,7 @@
       display: flex;
       font-size: 2rem;
       justify-content: center;
-      padding: 4rem 2rem;
+      padding: 4rem 0;
     }
     .site__wrap {
       width: 100%;
@@ -55,6 +55,7 @@
 
     header {
       width: 100%;
+      padding: 0 2rem;
     }
 
     .callout {
@@ -89,6 +90,7 @@
 
     .contentBlock {
       margin-bottom: 6rem;
+      padding: 0 2rem;
     }
     .contentBlock a::before {
       transition: .3s ease-in-out all;
@@ -154,6 +156,7 @@
       text-shadow: none;
       transition: .3s ease-in-out all;
       text-decoration: none;
+      margin-bottom: 1rem;
     }
 
     .button[disabled] {
@@ -181,6 +184,10 @@
       list-style: none;
       padding: 0;
     }
+    .iconLink {
+      align-items: center;
+      display: flex;
+    }
     .contactList__item {
       display: flex;
       align-items: center;
@@ -196,6 +203,23 @@
     .footer {
       color: #888;
       font-size: 1.2rem;
+    }
+
+    @media (max-width: 560px) {
+      .site {
+        font-size: 1.6rem;
+      }
+      .contentBlock {
+        padding: 0 1rem;
+      }
+      .callout, .codeOfConduct {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+      .contactList__icon {
+        height: 2rem;
+        margin-right: 1rem;
+      }
     }
 
 
