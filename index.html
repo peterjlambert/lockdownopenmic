@@ -93,26 +93,21 @@
       margin-bottom: 6rem;
       padding: 0 2rem;
     }
-    .contentBlock a::before {
+
+    .contentBlock a{
       transition: .3s ease-in-out all;
+      position: relative;
     }
-    .contentBlock a:hover {
+    .contentBlock a:hover,
+    .contentBlock a:focus {
+      background: #6961B9;
       color: #fff;
       text-decoration: none;
       text-shadow: none;
-      position: relative;
-    }
-    .contentBlock a:not(.iconLink):hover::before {
-      background-color: #7B72D3;
-      clip-path: polygon(1% 2%, 98% 2%, 99% 98%, 0% 100%);
-      content: "";
-      top: -.4rem;
-      left: -.6rem;
-      right: -.6rem;
-      bottom: -.4rem;
-      position: absolute;
-      color: #fff;
-      z-index: -1;
+      padding-left: .5rem;
+      padding-right: .5rem;
+      margin-left: -.5rem;
+      margin-right: -.5rem;
     }
 
     .codeOfConduct {
