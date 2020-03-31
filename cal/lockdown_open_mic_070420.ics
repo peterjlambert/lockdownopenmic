@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+X-WR-CALNAME:Lockdown Open Mic
+NAME:Lockdown Open Mic
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20200321T172114Z
+UID:20200321T172114Z-1699611808@marudot.com
+DTSTART;TZID=/Etc/UTC:20200407T200000
+DTEND;TZID=/Etc/UTC:20200407T220000
+SUMMARY:Lockdown Open Mic
+URL:https%3A%2F%2Fzoom.us%2Fj%2F530219197
+DESCRIPTION:Musicians\, poets\, comics\, plate-spinners. Got an urge to perform in this time of social isolation? We’re here for you. The pubs and clubs are closed and your favourite local open-mic night is sadly on hiatus. Join our virtual open-mic and give us a bit of entertainment.\n\nIt’ll be friendly\, welcoming and the drinks will be cheap (providing you’ve got some in). From seasoned performers to first-timers - come and give it a go.\n\nJoin the Zoom Meeting\nhttps://us04web.zoom.us/j/530219197\n\nMeeting ID: 530 219 197
+LOCATION:Zoom
+END:VEVENT
+END:VCALENDAR
