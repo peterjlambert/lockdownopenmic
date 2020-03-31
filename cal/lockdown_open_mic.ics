@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+<<<<<<< HEAD
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+=======
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+X-WR-CALNAME:Lockdown Open Mic
+NAME:Lockdown Open Mic
+CALSCALE:GREGORIAN
+>>>>>>> Removes Zoom link because it doesn’t work
+BEGIN:VTIMEZONE
+TZID:Europe/London
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+TZNAME:BST
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+TZNAME:GMT
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+<<<<<<< HEAD
+DTSTAMP:20200331T211247Z
+DTSTART;TZID=Europe/London:20200331T210000
+DTEND;TZID=Europe/London:20200331T230000
+SUMMARY:Lockdown Open Mic
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20200512T230000;INTERVAL=1;BYDAY=TU
+UID:ZOOM750958957
+TZID:Europe/London
+DESCRIPTION:Pete Lambert is inviting you to a scheduled Zoom meeting.\n\n
+ Join Zoom Meeting\nhttps://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkW
+ W1xM2ZUdz09\n\nMeeting ID: 750 958 957\nPassword: 227850\n\nOne tap mobi
+ le\n+19292056099\,\,750958957# US (New York)\n+12532158782\,\,750958957#
+  US\n\nDial by your location\n        +1 929 205 6099 US (New York)\n   
+      +1 253 215 8782 US\n        +1 301 715 8592 US\n        +1 312 626 
+ 6799 US (Chicago)\n        +1 346 248 7799 US (Houston)\n        +1 669 
+ 900 6833 US (San Jose)\nMeeting ID: 750 958 957\nFind your local number:
+  https://zoom.us/u/aeJWBnwpto\n
+LOCATION:https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09
+ 
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+=======
+DTSTAMP:20200331T133317Z
+UID:20200331T133317Z-324921640@marudot.com
+DTSTART;TZID=Europe/London:20200331T200000
+RRULE:FREQ=WEEKLY;BYDAY=TU
+DTEND;TZID=Europe/London:20200331T220000
+SUMMARY:Lockdown Open Mic
+URL:https%3A%2F%2Fus04web.zoom.us%2Fj%2F530219197
+DESCRIPTION:Musicians\, poets\, comics\, plate-spinners. Got an urge to perform in this time of social isolation? We’re here for you. The pubs and clubs are closed and your favourite local open-mic night is sadly on haitus. Join our virtual open-mic and give us a bit of entertainment.\n\nIt’ll be friendly\, welcoming and the drinks will be cheap (providing you’ve got some in). From seasoned performers to first-timers - come and give it a go.\n\nJoin the Zoom Meeting\nhttps://us04web.zoom.us/j/530219197\n\nMeeting ID: 530 219 197
+LOCATION:Zoom
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lockdown Open Mic
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+>>>>>>> Removes Zoom link because it doesn’t work
