@@ -1,9 +1,17 @@
 BEGIN:VCALENDAR
+<<<<<<< HEAD
 PRODID:-//zoom.us//iCalendar Event//EN
 VERSION:2.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 CLASS:PUBLIC
+=======
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+X-WR-CALNAME:Lockdown Open Mic
+NAME:Lockdown Open Mic
+CALSCALE:GREGORIAN
+>>>>>>> Removes Zoom link because it doesn’t work
 BEGIN:VTIMEZONE
 TZID:Europe/London
 TZURL:http://tzurl.org/zoneinfo-outlook/Europe/London
@@ -24,6 +32,7 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+<<<<<<< HEAD
 DTSTAMP:20200331T211247Z
 DTSTART;TZID=Europe/London:20200331T210000
 DTEND;TZID=Europe/London:20200331T230000
@@ -49,3 +58,21 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 END:VCALENDAR
+=======
+DTSTAMP:20200331T133317Z
+UID:20200331T133317Z-324921640@marudot.com
+DTSTART;TZID=Europe/London:20200331T200000
+RRULE:FREQ=WEEKLY;BYDAY=TU
+DTEND;TZID=Europe/London:20200331T220000
+SUMMARY:Lockdown Open Mic
+URL:https%3A%2F%2Fus04web.zoom.us%2Fj%2F530219197
+DESCRIPTION:Musicians\, poets\, comics\, plate-spinners. Got an urge to perform in this time of social isolation? We’re here for you. The pubs and clubs are closed and your favourite local open-mic night is sadly on haitus. Join our virtual open-mic and give us a bit of entertainment.\n\nIt’ll be friendly\, welcoming and the drinks will be cheap (providing you’ve got some in). From seasoned performers to first-timers - come and give it a go.\n\nJoin the Zoom Meeting\nhttps://us04web.zoom.us/j/530219197\n\nMeeting ID: 530 219 197
+LOCATION:Zoom
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lockdown Open Mic
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+>>>>>>> Removes Zoom link because it doesn’t work
