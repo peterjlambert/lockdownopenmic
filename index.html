@@ -14,6 +14,22 @@
 
 
   <style>
+    :root {
+      --color-primary: #222051;
+      --color-secondary: #4EFFBB;
+      --color-tertiary: #6961B9;
+      --color-lightest: #ffffff;
+      --color-footnote: #444444;
+      --color-disabled: rgba(34,32,81, 0.2);
+    }
+    @media (prefers-color-scheme: dark) {
+      --color-primary: #ffffff;
+      --color-secondary: #4EFFBB;
+      --color-tertiary: #6961B9;
+      --color-lightest: #222051;
+      --color-footnote: #444444;
+      --color-disabled: rgba(34,32,81, 0.2);
+    }
     *, *+* {
       box-sizing: border-box;
     }
@@ -42,8 +58,8 @@
     }
 
     .site {
-      background-color: #fff;
-      color: #222051;
+      background-color: var(--color-lightest);
+      color: var(--color-primary);
       display: flex;
       font-size: 2rem;
       justify-content: center;
@@ -60,7 +76,7 @@
     }
 
     .callout {
-      background-color: #4EFFBB;
+      background-color: var(--color-secondary);
       clip-path: polygon(0 2%, 98% 5%, 98% 90%, 50% 100%, 2% 90%);
       padding: 2rem 3rem 6rem;
       margin-bottom: 6rem;
@@ -70,13 +86,14 @@
       font-size: 4.2rem;
       font-weight: 400;
       margin: 0;
+      text-shadow: .3rem .3rem 0px var(--color-disabled);
     }
     .callout__datetime {
       font-size: 3.2rem;
       font-weight: 800;
       margin-top: 0;
       margin-bottom: 2rem;
-      text-shadow: .3rem .3rem 0px rgba(34, 32, 81, 0.2);
+      text-shadow: .3rem .3rem 0px var(--color-disabled);
     }
     .callout__actions {
       display: flex;
@@ -100,8 +117,8 @@
     }
     .contentBlock a:hover,
     .contentBlock a:focus {
-      background: #6961B9;
-      color: #fff;
+      background: var(--color-tertiary);
+      color: var(--color-lightest);
       text-decoration: none;
       text-shadow: none;
       padding-left: .5rem;
@@ -111,16 +128,16 @@
     }
 
     .codeOfConduct {
-      background-color: #6961B9;
+      background-color: var(--color-tertiary);
       clip-path: polygon(0% 4%, 96% 0, 100% 100%, 3% 100%);
-      color: #fff;
+      color: var(--color-lightest);
       font-weight: 500;
       padding: 4rem 3rem 4rem;
       margin-bottom: 6rem;
-      text-shadow: .1rem .1rem 0px rgba(34, 32, 81, 0.2);
+      text-shadow: .1rem .1rem 0px var(--color-disabled);
     }
     .codeOfConduct__title {
-      text-shadow: .3rem .3rem 0px rgba(34, 32, 81, 0.2);
+      text-shadow: .3rem .3rem 0px var(--color-disabled);
       margin-top: 0;
     }
     .codeOfConduct__list {
@@ -139,15 +156,15 @@
     .codeOfConduct__item::before {
       content: counter(codeOfConductCounter);
       font-weight: 800;
-      text-shadow: .3rem .3rem 0px rgba(34, 32, 81, 0.2);
+      text-shadow: .3rem .3rem 0px var(--color-disabled);
       flex-basis: 2ch;
       flex-shrink: 0;
     }
 
     .button {
-      background-color: #7B72D3;
-      border: .4rem solid #7B72D3;
-      color: #fff;
+      background-color: var(--color-tertiary);
+      border: .4rem solid var(--color-tertiary);
+      color: var(--color-lightest);
       font-weight: 800;
       font-size: 2.2rem;
       padding: .4rem 1.2rem;
@@ -159,22 +176,22 @@
 
     .button--disabled,
     .button[disabled] {
-      background-color: rgba(34, 32, 81, 0.2);
-      border-color: rgba(34, 32, 81, 0.2);
+      background-color: var(--color-disabled);
+      border-color: var(--color-disabled);
       cursor: default;
       pointer-events: none;
     }
 
     .button--secondary {
-      color: #7B72D3;
-      background-color: #fff;
+      color: var(--color-tertiary);
+      background-color: var(--color-lightest);
     }
     .button--secondary:hover {
-      border-color: #fff;
+      border-color: var(--color-lightest);
     }
 
     .button:hover {
-      box-shadow: .3rem .3rem 0px .6rem rgba(34, 32, 81, 0.2);
+      box-shadow: .3rem .3rem 0px .6rem var(--color-disabled);
       clip-path: polygon(3% 2%, 94% 0, 100% 100%, 0% 100%);
       transform: rotate(2deg);
     }
@@ -201,7 +218,7 @@
     }
 
     .footer {
-      color: #444;
+      color: var(--color-footnote);
       font-size: 1.4rem;
       padding: 0 2rem;
     }
