@@ -28,7 +28,7 @@ DTSTAMP:20200331T211247Z
 DTSTART;TZID=Europe/London:20200331T200000
 DTEND;TZID=Europe/London:20200331T220000
 SUMMARY:Lockdown Open Mic
-RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20200512T230000;INTERVAL=1;BYDAY=TU
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20200512T220000;INTERVAL=1;BYDAY=TU
 UID:ZOOM750958957
 TZID:Europe/London
 DESCRIPTION:Musicians\, poets\, comics\, plate-spinners. Got an urge to perform in this time of social isolation? We’re here for you. The pubs and clubs are closed and your favourite local open-mic night is sadly on haitus. Join our virtual open-mic and give us a bit of entertainment.\n\nIt’ll be friendly\, welcoming and the drinks will be cheap (providing you’ve got some in). From seasoned performers to first-timers - come and give it a go.\n\nVisit https://lockdownopenmic.club for joining instructions.
