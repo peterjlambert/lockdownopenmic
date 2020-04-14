@@ -24,14 +24,108 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20200331T211247Z
-DTSTART;TZID=Europe/London:20200331T200000
-DTEND;TZID=Europe/London:20200331T220000
+DTSTAMP:20200414T092802Z
+DTSTART;TZID=Europe/London:20200414T210000
+DTEND;TZID=Europe/London:20200414T230000
 SUMMARY:Lockdown Open Mic
+EXDATE;TZID=Europe/London:20200331T200000,20200407T200000,20200414T200000
+ ,20200421T200000,20200428T200000,20200505T200000,20200512T200000
 RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20200512T220000;INTERVAL=1;BYDAY=TU
 UID:ZOOM750958957
 TZID:Europe/London
-DESCRIPTION:Musicians\, poets\, comics\, plate-spinners. Got an urge to perform in this time of social isolation? We’re here for you. The pubs and clubs are closed and your favourite local open-mic night is sadly on haitus. Join our virtual open-mic and give us a bit of entertainment.\n\nIt’ll be friendly\, welcoming and the drinks will be cheap (providing you’ve got some in). From seasoned performers to first-timers - come and give it a go.\n\nVisit https://lockdownopenmic.club for joining instructions.
+DESCRIPTION:Pete Lambert is inviting you to a scheduled Zoom meeting.\n\n
+ Join Zoom Meeting\nhttps://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkW
+ W1xM2ZUdz09\n\nMeeting ID: 750 958 957\nPassword: 227850\n
+LOCATION:https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09
+
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200414T092802Z
+DTSTART;TZID=Europe/London:20200414T210000
+DTEND;TZID=Europe/London:20200414T230000
+SUMMARY:Lockdown Open Mic
+UID:ZOOM750958957OCCURRENCE1586894400000
+DESCRIPTION:Check https://lockdownopenmic.club before the event for joining instructions
+TZID:Europe/London
+LOCATION:https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09
+
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200414T092802Z
+DTSTART;TZID=Europe/London:20200421T210000
+DTEND;TZID=Europe/London:20200421T230000
+SUMMARY:Lockdown Open Mic
+UID:ZOOM750958957OCCURRENCE1587499200000
+DESCRIPTION:Pete Lambert is inviting you to a scheduled Zoom meeting.\n\n
+ Join Zoom Meeting\nhttps://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkW
+ W1xM2ZUdz09\n\nMeeting ID: 750 958 957\nPassword: 227850\n
+TZID:Europe/London
+LOCATION:https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09
+
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200414T092802Z
+DTSTART;TZID=Europe/London:20200428T210000
+DTEND;TZID=Europe/London:20200428T230000
+SUMMARY:Lockdown Open Mic
+UID:ZOOM750958957OCCURRENCE1588104000000
+DESCRIPTION:Pete Lambert is inviting you to a scheduled Zoom meeting.\n\n
+ Join Zoom Meeting\nhttps://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkW
+ W1xM2ZUdz09\n\nMeeting ID: 750 958 957\nPassword: 227850\n
+TZID:Europe/London
+LOCATION:https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09
+
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200414T092802Z
+DTSTART;TZID=Europe/London:20200505T210000
+DTEND;TZID=Europe/London:20200505T230000
+SUMMARY:Lockdown Open Mic
+UID:ZOOM750958957OCCURRENCE1588708800000
+DESCRIPTION:Pete Lambert is inviting you to a scheduled Zoom meeting.\n\n
+ Join Zoom Meeting\nhttps://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkW
+ W1xM2ZUdz09\n\nMeeting ID: 750 958 957\nPassword: 227850\n
+TZID:Europe/London
+LOCATION:https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09
+
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200414T092802Z
+DTSTART;TZID=Europe/London:20200512T210000
+DTEND;TZID=Europe/London:20200512T230000
+SUMMARY:Lockdown Open Mic
+UID:ZOOM750958957OCCURRENCE1589313600000
+DESCRIPTION:Pete Lambert is inviting you to a scheduled Zoom meeting.\n\n
+ Join Zoom Meeting\nhttps://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkW
+ W1xM2ZUdz09\n\nMeeting ID: 750 958 957\nPassword: 227850\n
+TZID:Europe/London
+LOCATION:https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09
+
 BEGIN:VALARM
 TRIGGER:-PT10M
 ACTION:DISPLAY
