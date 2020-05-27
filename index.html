@@ -28,6 +28,8 @@
       --color-disabled-contrast: #222041;
       --highlight-color: var(--color-primary);
       --highlight-shadow-color: var(--color-secondary);
+      --color-special: #F3428A;
+      --color-special-contrast: #FFFFFF;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -115,6 +117,11 @@
       padding: 2rem 3rem 6rem;
       margin-bottom: 6rem;
       overflow: hidden;
+    }
+
+    .callout--2 {
+      background-color: var(--color-special);
+      color: var(--color-special-contrast);
     }
     .callout__title {
       color: var(--color-secondary-contrast);
@@ -338,6 +345,11 @@
         <span class="button button--disabled">Come back later to join</span>
         <a href="/cal/lockdown_open_mic.ics" class="button button--secondary">Add to Calendar</a>
       </div>
+    </article>
+    <article class="callout callout--2">
+      <h3 class="callout__title">2010s Pop Week!</h3>
+      <p>This week's open mic (2nd June) will be the first of our theme weeks. Grab some Gaga, blast out some Beiber or murder some Murs.Play as many or as few theme-related songs as you like (you can play your normal stuff too).</p>
+      <p>If you've got ideas for later themed weeks, let me know on any of the social channels.</p>
     </article>
     <article class="contentBlock">
       <h2>What's this now?</h2>
