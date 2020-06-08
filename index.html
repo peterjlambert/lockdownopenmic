@@ -15,39 +15,38 @@
 
   <style>
     :root {
-      --color-lightest: #ffffff;
-      --color-darkest: #222051;
-      --color-primary: #222051;
-      --color-primary-contrast: #ffffff;
+      --color-lightest: #242143;
+      --color-darkest: #ffffff;
+      --color-primary: #ffffff;
+      --color-primary-contrast: #242143;
       --color-secondary: #4EFFBB;
-      --color-secondary-contrast: #222051;
+      --color-secondary-contrast: #242143;
       --color-tertiary: #6961B9;
       --color-tertiary-contrast: #ffffff;
-      --color-footnote: #444444;
+      --color-footnote: rgba(255,255,255,.8);
       --color-disabled: rgba(34,32,81, 0.2);
       --color-disabled-contrast: #222041;
-      --highlight-color: var(--color-primary);
-      --highlight-shadow-color: var(--color-secondary);
+      --highlight-color: var(--color-secondary);
+      --highlight-shadow-color: #000000;
       --color-special: #F3428A;
       --color-special-contrast: #FFFFFF;
     }
 
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --color-primary: #ffffff;
-        --color-primary-contrast: #222051;
-        --color-secondary: #4EFFBB;
-        --color-secondary-contrast: #222051;
-        --color-tertiary: #6961B9;
-        --color-tertiary-contrast: #ffffff;
-        --color-lightest: #222051;
-        --color-darkest: #ffffff;
-        --color-footnote: rgba(255,255,255,.8);
-        --color-disabled: rgba(34,32,81, 0.2);
-        --color-disabled-contrast: #222041;
-        --highlight-color: var(--color-secondary);
-        --highlight-shadow-color: #000000;
-      }
+    /* Black Lives Matter */
+    .blm {
+      --color-primary: #ffffff;
+      --color-primary-contrast: #37354F;
+      --color-secondary: #343434;
+      --color-secondary-contrast: #efefef;
+      --color-tertiary: #444444;
+      --color-tertiary-contrast: #efefef;
+      --color-lightest: #000000;
+      --color-darkest: #efefef;
+      --color-footnote: rgba(255,255,255,.8);
+      --color-disabled: #666;
+      --color-disabled-contrast: #eee;
+      --highlight-color: #fff;
+      --highlight-shadow-color: #000000;
     }
     *, *+* {
       box-sizing: border-box;
@@ -77,20 +76,14 @@
       max-width: 100%;
     }
 
-
     .svg__color-primary {
-      fill: var(--color-primary);
+      fill: var(--color-primary-contrast);
     }
     .svg__color-secondary {
       fill: var(--color-secondary);
     }
     .svg__color-tertiary {
       fill: var(--color-tertiary);
-    }
-    @media (prefers-color-scheme: dark) {
-      .svg__color-primary {
-        fill: var(--color-primary-contrast);
-      }
     }
 
     .site {
@@ -294,38 +287,14 @@
       }
     }
 
-    /* Black Lives Matter */
-    .blm {
-      --color-primary: #efefef;
-      --color-primary-contrast: #000000;
-      --color-secondary: #343434;
-      --color-secondary-contrast: #efefef;
-      --color-tertiary: #444444;
-      --color-tertiary-contrast: #efefef;
-      --color-lightest: #000000;
-      --color-darkest: #efefef;
-      --color-footnote: rgba(255,255,255,.8);
-      --color-disabled: #666;
-      --color-disabled-contrast: #eee;
-      --highlight-color: #fff;
-      --highlight-shadow-color: #000000;
-    }
 
-    .blm .svg__color-primary {
-      fill: var(--color-primary-contrast);
-    }
 
-    .blm img {
-      filter: grayscale(100%);
-    }
 
-    /*.blm .callout--2 {
-      background-color: var(--color-tertiary);
-    }*/
+
   </style>
   <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,800&display=swap" rel="stylesheet">
 </head>
-<body class="site blm">
+<body class="site">
   <div class="site__wrap">
     <header class="header">
       <h1>
@@ -367,16 +336,9 @@
         </svg>
       </h1>
     </header>
-    <article class="callout callout--blm">
-      <h2 class="callout__title">Black Lives Matter</h2>
-      <h3 class="callout__datetime">We do not tolerate racism. <br>We do not tolerate hate.</h3>
-      <p>In light of the events in the USA and around the world and in support of the fight that is being fought to bring equality, justice and love to the fore, we joined the rest of the music industry in disconnecting and postponing the 2nd of June's Lockdown Open Mic until the 9th of June.</p>
-      <p>Please take the time to listen, learn and do what you can to act. #blacklivesmatter #theshowmustbepaused.</p>
-      <p>Stay safe, and we look forward to seeing you again next week.</p>
-    </article>
     <article class="callout callout--2">
-      <h3 class="callout__title">2010s Pop Week! <br>POSTPONED TO 9th JUNE</h3>
-      <p>Next week's open mic (9nd June) will be the first of our theme weeks. Grab some Gaga, blast out some Beiber or murder some Murs. We're playing songs from the 2010s (anything between 2010 and 2019). Play as many or as few theme-related songs as you like (you can play your normal stuff too).</p>
+      <h3 class="callout__title">2010s Pop Week!</h3>
+      <p>This week's open mic (9nd June) will be the first of our theme weeks. Grab some Gaga, blast out some Beiber or murder some Murs. We're playing songs from the 2010s (anything between 2010 and 2019). Play as many or as few theme-related songs as you like (you can play your normal stuff too).</p>
       <p>If you've got ideas for later themed weeks, let me know on any of the <a href="#socials">social channels</a>.</p>
     </article>
     <article class="callout">
