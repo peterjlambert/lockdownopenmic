@@ -5,6 +5,13 @@
   padding: 2rem 3rem 6rem;
   margin-bottom: 6rem;
   overflow: hidden;
+  a:not(.button) {
+    color: var(--color-special);
+    text-shadow: none;
+    &:hover {
+      color: var(--color-secondary-contrast);
+    }
+  }
   @media (max-width: 36em) {
     padding-left: 2rem;
     padding-right: 2rem;

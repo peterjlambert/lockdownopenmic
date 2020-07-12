@@ -1,6 +1,7 @@
 ---
 title: "Lockdown Open Mic"
 layout: "layouts/home.html"
+showIsLive: false
 nextShow:
   title: "Next event"
   date: "Tuesday 14th July"
