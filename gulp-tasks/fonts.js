@@ -10,7 +10,7 @@ const fonts = async () => {
   });
 
   // Grabs fonts and CSS from google and puts in the dist folder
-  const result = await instance.download("https://fonts.googleapis.com/css?family=Dosis:400,500,800");
+  const result = await instance.download("https://fonts.googleapis.com/css?family=Dosis:400,500,800&display=swap");
 
   return result;
 };
