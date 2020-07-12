@@ -1,4 +1,9 @@
 module.exports = (config) => {
+  // Set files to pass through to the dist folder
+  config.addPassthroughCopy("./src/robots.txt");
+  config.addPassthroughCopy("./src/manifest.json");
+  config.addPassthroughCopy("./src/browserconfig.xml");
+
   // Create a helpful production flag
   const isProduction = process.env.NODE_ENV === "production";
 
