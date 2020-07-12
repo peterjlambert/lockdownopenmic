@@ -1,0 +1,58 @@
+.callout {
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-contrast);
+  clip-path: polygon(0 2%, 98% 5%, 98% 90%, 50% 100%, 2% 90%);
+  padding: 2rem 3rem 6rem;
+  margin-bottom: 6rem;
+  overflow: hidden;
+  @media (max-width: 36em) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.callout--2 {
+  background-color: var(--color-special);
+  color: var(--color-special-contrast);
+  clip-path: polygon(0 -2%, 98% 5%, 98% 95%, 30% 90%, -2% 90%);
+}
+.callout__title {
+  color: var(--color-secondary-contrast);
+  font-size: 4.2rem;
+  font-weight: 400;
+  margin: 0;
+  text-shadow: 0.3rem 0.3rem 0px var(--color-disabled);
+}
+.callout__subtitle {
+  color: var(--color-special);
+  font-size: 3.2rem;
+  font-weight: 800;
+  margin-top: 0;
+  margin: 0;
+  text-transform: uppercase;
+  text-shadow: 0.1rem 0.1rem 0px var(--color-primary-contrast);
+}
+.callout__datetime {
+  color: var(--color-secondary-contrast);
+  font-size: 3.2rem;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  text-shadow: 0.3rem 0.3rem 0px var(--color-disabled);
+  @media (max-width: 36em) {
+    font-size: 2.6rem;
+  }
+}
+.callout__actions {
+  display: flex;
+  flex-wrap: wrap;
+}
+.callout__actions > * {
+  margin-right: 1rem;
+}
+.callout__note {
+  font-size: 1.4rem;
+}
+.callout__timezone {
+  font-size: 2rem;
+}

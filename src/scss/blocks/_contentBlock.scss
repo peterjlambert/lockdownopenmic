@@ -1,0 +1,23 @@
+.contentBlock {
+  margin-bottom: 6rem;
+  padding: 0 2rem;
+  @media (max-width: 36em) {
+    padding: 0 1rem;
+  }
+}
+
+.contentBlock a {
+  transition: 0.3s ease-in-out all;
+  position: relative;
+}
+.contentBlock a:hover,
+.contentBlock a:focus {
+  background: var(--color-tertiary);
+  color: var(--color-tertiary-contrast);
+  text-decoration: none;
+  text-shadow: none;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}

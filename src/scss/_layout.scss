@@ -1,0 +1,21 @@
+.site {
+  background-color: var(--color-primary-contrast);
+  color: var(--color-primary);
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  padding: 4rem 0;
+  @media (max-width: 36em) {
+    font-size: 1.8rem;
+    padding: 2rem 0;
+  }
+}
+.site__wrap {
+  width: 100%;
+  max-width: 36em;
+}
+
+.site__head {
+  width: 100%;
+  padding: 0 2rem;
+}
