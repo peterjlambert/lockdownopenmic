@@ -2,15 +2,13 @@
 
 {% block content %}
 
-  <article class="callout">
-    <h2 class="callout__title">{{ nextShow.title }}</h2>
-    <p class="callout__datetime">{{ nextShow.date }}, {{ nextShow.time }} <span class="callout__timezone">{{ nextShow.timeZone }}</span></p>
-    {{ content | safe }}
-    <div class="callout__actions">
-      <span class="button button--disabled">Come back later to join</span>
-      <a href="{{ nextShow.calendarLink }}" class="button button--secondary">Add to Calendar</a>
-    </div>
-  </article>
+  {% if showIsLive %}
+    {% include "partials/liveShow.html" %}
+  {% else %}
+    {% include "partials/nextShow.html" %}
+  {% endif %}
+
+
 
   {% include "partials/about.html" %}
   {% include "partials/joiningInstructions.html" %}
