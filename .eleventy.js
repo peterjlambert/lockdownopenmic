@@ -1,4 +1,7 @@
 module.exports = (config) => {
+  // Create a helpful production flag
+  const isProduction = process.env.NODE_ENV === "production";
+
   // Only minify HTML if we are in production because it slows builds _right_ down
   if (isProduction) {
     config.addTransform("htmlmin", htmlMinTransform);
@@ -9,9 +12,6 @@ module.exports = (config) => {
 
   // Transforms
   const htmlMinTransform = require("./src/transforms/html-min-transform.js");
-
-  // Create a helpful production flag
-  const isProduction = process.env.NODE_ENV === "production";
 
   return {
     markdownTemplateEngine: "njk",
