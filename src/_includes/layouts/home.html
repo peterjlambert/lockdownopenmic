@@ -2,7 +2,7 @@
 
 {% block content %}
 
-  {% if showIsLive %}
+  {% if show.isLive %}
     {% include "partials/liveShow.html" %}
   {% else %}
     {% include "partials/nextShow.html" %}
