@@ -3,6 +3,7 @@ module.exports = (config) => {
   config.addPassthroughCopy("./src/robots.txt");
   config.addPassthroughCopy("./src/manifest.json");
   config.addPassthroughCopy("./src/browserconfig.xml");
+  config.addPassthroughCopy("./src/scripts/");
 
   // Create a helpful production flag
   const isProduction = process.env.NODE_ENV === "production";

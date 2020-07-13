@@ -1,8 +1,4 @@
 .footer {
   color: var(--color-footnote);
   font-size: 1.4rem;
-  padding: 0 2rem;
-  @media (max-width: 36em) {
-    padding: 0 1rem;
-  }
 }
