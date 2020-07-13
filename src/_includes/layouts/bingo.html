@@ -24,6 +24,7 @@
     <input type="checkbox" name="bingo-5" />
   </form>
 
+
   <form method="post" name="bingoCardForm" netlify>
     <div class="bingo__name">
       <label for="bingo-name" class="bingo__textFieldLabel">
@@ -34,7 +35,10 @@
     <div id="bingoCard">
 
     </div>
-    <button type="submit" class="button">Submit for checking</button>
+    <div class="bingo__formFooter">
+      <button type="button" class="bingo__reset js-bingo-reset ">Refresh your list</button>
+      <button type="submit" class="button">Submit for checking</button>
+    </div>
   </form>
 </article>
 

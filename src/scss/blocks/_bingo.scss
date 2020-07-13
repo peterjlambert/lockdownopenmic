@@ -144,6 +144,28 @@
     }
   }
 }
+
+.bingo__formFooter {
+  align-items: center;
+  display: flex;
+  [type="submit"] {
+    margin-left: auto;
+  }
+}
+.bingo__reset {
+  appearance: none;
+  border: none;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--color-tertiary);
+  font: inherit;
+  transition: 0.3s ease-in-out all;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .bingo__checkbox {
   order: 2;
   justify-self: flex-end;
