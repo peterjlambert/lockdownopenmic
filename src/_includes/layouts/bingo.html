@@ -12,14 +12,14 @@
     </h1>
     <p>{{ content | safe }}</p>
   </header>
-  <form>
+  <form name="bingoCardForm" netlify>
     <div class="bingo__name">
       <label for="bingo-name" class="bingo__textFieldLabel">
         Your Name:
       </label>
       <input id="bingo-name" class="bingo__textField" required />
     </div>
-    <div id="bingoCard">  </div>
+    <div id="bingoCard"></div>
     <button type="submit" class="button">Submit for checking</button>
   </form>
 </article>
