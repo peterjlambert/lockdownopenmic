@@ -20,7 +20,7 @@ const bingoItem = (item, itemIndex) =>
   document.createRange().createContextualFragment(`
     <li class="bingo__item">
       <label class="bingo__label">
-        <input type="checkbox" name="id="bingo-${itemIndex}" id="bingo-${itemIndex}" class="bingo__checkbox visually-hidden" value="${item}" required >
+        <input type="checkbox" name="bingo-${itemIndex}" id="bingo-${itemIndex}" class="bingo__checkbox visually-hidden" value="${item}" required >
         <span class="bingo__itemText">
           ${item}
           ${bingoHighlight}
@@ -104,13 +104,20 @@ function bingo() {
   const bingoWrapper = document.getElementById("bingoCard");
 
   const resetButton = document.querySelector(".js-bingo-reset");
-  resetButton.addEventListener("click", () => {
+  resetButton.addEventListener("click", resetForm());
+
+  const resetForm = () => {
     // Remove localstorage
     localStorage.removeItem("bingoItems");
     // Empty container
     document.querySelector(".bingo__card").remove();
     // Build a new list
     bingo();
+  };
+
+  const form = document.getElementById("bingoForm");
+  form.addEventListener("submit", () => {
+    localStorage.removeItem("bingoItems");
   });
 
   const buildBingoCard = (items) => {
