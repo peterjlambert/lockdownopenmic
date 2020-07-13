@@ -23,6 +23,9 @@
 }
 .bingo__header {
   padding: 1rem;
+  p:empty {
+    display: none;
+  }
 }
 .bingo__title {
   align-items: center;
@@ -53,8 +56,17 @@
 .bingo__textField {
   background: none;
   border: 0;
+  border-radius: 0;
   border-bottom: 1px solid #666;
+  color: var(--color-tertiary);
   font: inherit;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-left: 0.5rem;
+  &:focus {
+    border-bottom-color: var(--color-tertiary);
+    outline: none;
+  }
 }
 
 .bingo__card {
@@ -154,13 +166,18 @@
 }
 .bingo__reset {
   appearance: none;
+  align-items: center;
   border: none;
   border: 0;
   border-radius: 0;
   background: transparent;
+  display: flex;
   color: var(--color-tertiary);
   font: inherit;
   transition: 0.3s ease-in-out all;
+  svg {
+    margin-right: 0.5rem;
+  }
   &:hover {
     text-decoration: underline;
   }
