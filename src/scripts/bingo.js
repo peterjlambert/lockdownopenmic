@@ -103,9 +103,6 @@ function bingo() {
 
   const bingoWrapper = document.getElementById("bingoCard");
 
-  const resetButton = document.querySelector(".js-bingo-reset");
-  resetButton.addEventListener("click", resetForm());
-
   const resetForm = () => {
     // Remove localstorage
     localStorage.removeItem("bingoItems");
@@ -114,6 +111,9 @@ function bingo() {
     // Build a new list
     bingo();
   };
+
+  const resetButton = document.querySelector(".js-bingo-reset");
+  resetButton.addEventListener("click", resetForm);
 
   const form = document.getElementById("bingoForm");
   form.addEventListener("submit", () => {
