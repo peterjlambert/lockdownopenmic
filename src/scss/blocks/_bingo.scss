@@ -10,10 +10,15 @@
   margin: 1rem;
   transform: rotate(-1deg);
   @media (max-width: 38rem) {
+    box-shadow: none;
     margin: 0;
     padding: 2rem 1rem;
     transform: rotate(0);
     min-height: 100vh;
+  }
+  @media print {
+    box-shadow: none;
+    transform: rotate(0);
   }
 }
 .bingo__header {
@@ -142,4 +147,12 @@
 .bingo__checkbox {
   order: 2;
   justify-self: flex-end;
+}
+
+@media print {
+  .bingo__stampSvg,
+  .bingo__highlight,
+  .button {
+    display: none;
+  }
 }
