@@ -15,11 +15,11 @@ const bingoHighlight = `
 `;
 
 // List Item Component
-const bingoItem = (item) =>
+const bingoItem = (item, itemIndex) =>
   document.createRange().createContextualFragment(`
   <li class="bingo__item">
     <label class="bingo__label">
-      <input type="checkbox" id="bingo-1" class="bingo__checkbox visually-hidden" value="${item}" required >
+      <input type="checkbox" name="id="bingo-${itemIndex}" id="bingo-${itemIndex}" class="bingo__checkbox visually-hidden" value="${item}" required >
       <span class="bingo__itemText">
         ${item}
         ${bingoHighlight}
@@ -78,8 +78,8 @@ const bingoWrapper = document.getElementById("bingoCard");
 const buildBingoCard = (items) => {
   let itemsWrapper = document.createElement("ul");
   itemsWrapper.classList.add("bingo__card");
-  items.map((item) => {
-    itemsWrapper.appendChild(bingoItem(item));
+  items.map((item, index) => {
+    itemsWrapper.appendChild(bingoItem(item, index));
   });
   return itemsWrapper;
 };

@@ -17,10 +17,21 @@
       <label for="bingo-name" class="bingo__textFieldLabel">
         Your Name:
       </label>
-      <input id="bingo-name" class="bingo__textField" required />
+      <input id="bingo-name" name="bingo-name" class="bingo__textField" required />
     </div>
-    <div id="bingoCard"></div>
+    <div id="bingoCard">
+
+    </div>
     <button type="submit" class="button">Submit for checking</button>
+  </form>
+  <form name="bingoForm" hidden data-netlify="true">
+    <input type="hidden" name="bingo-name" />
+    <input type="hidden" name="bingo-0" />
+    <input type="hidden" name="bingo-1" />
+    <input type="hidden" name="bingo-2" />
+    <input type="hidden" name="bingo-3" />
+    <input type="hidden" name="bingo-4" />
+    <input type="hidden" name="bingo-5" />
   </form>
 </article>
 
