@@ -40,11 +40,15 @@
 
     <div class="site__wrap">
 
-      {% include "partials/site-head.html" %}
-      <main tabindex="-1" id="main-content">
+      {% if showSiteHeader %}
+        {% include "partials/site-head.html" %}
+      {% endif %}
+      <main tabindex="-1" id="main-content" class="site__main">
         {% block content %}{% endblock %}
       </main>
-      {% include "partials/site-foot.html" %}
+      {% if showSiteFooter %}
+        {% include "partials/site-foot.html" %}
+      {% endif %}
 
     </div>
   </body>
