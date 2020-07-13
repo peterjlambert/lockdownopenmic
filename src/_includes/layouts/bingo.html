@@ -12,7 +12,7 @@
     </h1>
     <p>{{ content | safe }}</p>
   </header>
-  <form name="bingoCardForm" netlify>
+  <form method="post" name="bingoCardForm" netlify>
     <div class="bingo__name">
       <label for="bingo-name" class="bingo__textFieldLabel">
         Your Name:
@@ -24,14 +24,15 @@
     </div>
     <button type="submit" class="button">Submit for checking</button>
   </form>
-  <form name="bingoForm" hidden data-netlify="true">
-    <input type="hidden" name="bingo-name" />
-    <input type="hidden" name="bingo-0" />
-    <input type="hidden" name="bingo-1" />
-    <input type="hidden" name="bingo-2" />
-    <input type="hidden" name="bingo-3" />
-    <input type="hidden" name="bingo-4" />
-    <input type="hidden" name="bingo-5" />
+  <form name="bingoCardForm" hidden data-netlify="true">
+    <input type="hidden" name="form-name" value="bingoCardForm">
+    <input type="text" name="bingo-name" />
+    <input type="checkbox" name="bingo-0" />
+    <input type="checkbox" name="bingo-1" />
+    <input type="checkbox" name="bingo-2" />
+    <input type="checkbox" name="bingo-3" />
+    <input type="checkbox" name="bingo-4" />
+    <input type="checkbox" name="bingo-5" />
   </form>
 </article>
 
