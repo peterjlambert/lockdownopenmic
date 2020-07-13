@@ -12,17 +12,7 @@
     </h1>
     <p>{{ content | safe }}</p>
   </header>
-  {# Hidden Form for Netlify #}
-  <form hidden netlify>
-    <input type="hidden" name="form-name" value="bingoCardForm">
-    <input type="text" name="bingo-name" />
-    <input type="checkbox" name="bingo-0" />
-    <input type="checkbox" name="bingo-1" />
-    <input type="checkbox" name="bingo-2" />
-    <input type="checkbox" name="bingo-3" />
-    <input type="checkbox" name="bingo-4" />
-    <input type="checkbox" name="bingo-5" />
-  </form>
+
 
 
   <form method="post" name="bingoCardForm" netlify>
@@ -33,7 +23,14 @@
       <input id="bingo-name" name="bingo-name" class="bingo__textField" required />
     </div>
     <div id="bingoCard">
-
+      <div id="netlifyFields" hidden>
+        <input type="checkbox" name="bingo-0" />
+        <input type="checkbox" name="bingo-1" />
+        <input type="checkbox" name="bingo-2" />
+        <input type="checkbox" name="bingo-3" />
+        <input type="checkbox" name="bingo-4" />
+        <input type="checkbox" name="bingo-5" />
+      </div>
     </div>
     <div class="bingo__formFooter">
       <button type="button" class="bingo__reset js-bingo-reset ">
