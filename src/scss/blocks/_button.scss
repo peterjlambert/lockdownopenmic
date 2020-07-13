@@ -29,7 +29,8 @@
   border-color: var(--color-tertiary-contrast);
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   box-shadow: 0.3rem 0.3rem 0px 0.6rem var(--color-disabled);
   clip-path: polygon(3% 2%, 94% 0, 100% 100%, 0% 100%);
   transform: rotate(2deg);
