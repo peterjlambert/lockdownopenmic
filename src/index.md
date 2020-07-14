@@ -5,13 +5,13 @@ layout: "layouts/home.html"
 showSiteHeader: true
 showSitefooter: true
 show:
-  isLive: false
-  title: We're live now!
+  isLive: true
+  title: We're live at 8pm!
   subTitle: Grab a drink and join the fun.
   link: "https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09"
 nextShow:
   title: "Next event"
-  date: "Tuesday 14th July"
+  date: "Tuesday 21st July"
   time: "8pm"
   timeZone: "BST"
   calendarLink: "/cal/lockdown_open_mic.ics"
