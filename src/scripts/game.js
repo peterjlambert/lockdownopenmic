@@ -31,7 +31,7 @@ const gameItem = (item, itemIndex) =>
 
 // An array of strings
 const items = [
-  "Somebody says “I love you”",
+  'Somebody says "I love you”',
   "“I haven’t practiced this”",
   "A song from the 90s",
   "An original song",
@@ -49,7 +49,7 @@ const items = [
   "Somebody drinks a strong spirit",
   "A song restarted in a different key",
   "Children on screen",
-  "Wagon wheel",
+  "Wagon Wheel",
   "Bob Dylan",
   "A hat",
   "A cat",
@@ -63,8 +63,10 @@ const items = [
   "A song from the 80s",
   "A song from the 70s",
   "A song from the 60s",
-  "Three different instruments have been played by any musicians tonight",
+  "Three different instruments have been played",
   "A song with a rude word",
+  "A Star Is Born",
+  "A song from Nashville",
 ];
 
 // Utility function for shuffling a passed array
