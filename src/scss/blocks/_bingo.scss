@@ -173,6 +173,9 @@
     .button,
     .bingo__reset {
       font-size: 1.5rem;
+      svg {
+        width: 2rem;
+      }
     }
   }
 }
@@ -185,6 +188,7 @@
   background: transparent;
   display: flex;
   color: var(--color-tertiary);
+  margin-bottom: 1rem;
   font: inherit;
   transition: 0.3s ease-in-out all;
   svg {

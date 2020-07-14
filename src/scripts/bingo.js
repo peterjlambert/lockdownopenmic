@@ -91,7 +91,6 @@ function bingo() {
   if (localStorage.bingoItems) {
     // Checks if there's localstorage
     const selectedIds = JSON.parse(localStorage.bingoItems);
-    console.log(selectedIds);
     // Sets selectedItems to the appropriate inxed items from the array
     selectedItems = selectedIds.map((item) => indexedItems[item]);
   } else {
