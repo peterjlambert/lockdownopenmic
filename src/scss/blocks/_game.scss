@@ -1,4 +1,4 @@
-.bingo {
+.game {
   background-color: rgba(217, 217, 217);
   color: var(--color-lightest);
   background-image: url(/images/paper.svg);
@@ -21,21 +21,21 @@
     transform: rotate(0);
   }
 }
-.bingo__header {
+.game__header {
   padding: 1rem;
   p:empty {
     display: none;
   }
 }
-.bingo__title {
+.game__title {
   align-items: center;
   color: var(--color-special);
   display: flex;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1;
   margin: 0;
   @media (max-width: 38rem) {
-    font-size: 3rem;
+    font-size: 2.4rem;
   }
   svg {
     justify-self: flex-start;
@@ -48,12 +48,12 @@
   }
 }
 
-.bingo__name {
+.game__name {
   margin-bottom: 1rem;
   padding: 1rem;
 }
 
-.bingo__textField {
+.game__textField {
   background: none;
   border: 0;
   border-radius: 0;
@@ -69,7 +69,7 @@
   }
 }
 
-.bingo__card {
+.game__card {
   border: 1px solid #666;
   border-bottom: none;
   margin: 0;
@@ -78,7 +78,7 @@
   margin-bottom: 2rem;
   min-height: 36rem;
 }
-.bingo__item {
+.game__item {
   --stampRotation: 12deg;
   display: block;
   padding: 0;
@@ -101,7 +101,7 @@
     --stampRotation: 170deg;
   }
 }
-.bingo__label {
+.game__label {
   cursor: pointer;
   display: flex;
   min-height: 4rem;
@@ -109,18 +109,18 @@
   padding: 1rem 1rem;
   &:focus-within {
     color: var(--color-tertiary);
-    .bingo__stamp {
+    .game__stamp {
       border-color: var(--color-tertiary);
     }
   }
 }
-.bingo__itemText {
+.game__itemText {
   align-items: center;
   display: inline-flex;
   position: relative;
   padding-right: 2rem;
 }
-.bingo__highlight {
+.game__highlight {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -130,7 +130,7 @@
   transition: 0.5s ease-in-out all;
 }
 
-.bingo__stamp {
+.game__stamp {
   background: transparent;
   content: "";
   border: 2px solid #666;
@@ -141,7 +141,7 @@
   position: relative;
 }
 
-.bingo__stampSvg {
+.game__stampSvg {
   height: 6rem;
   opacity: 0;
   height: 6rem;
@@ -153,17 +153,17 @@
   filter: url(#displacementFilter);
 }
 :checked {
-  ~ .bingo__stamp .bingo__stampSvg {
+  ~ .game__stamp .game__stampSvg {
     display: block;
   }
-  ~ .bingo__itemText {
-    .bingo__highlight {
+  ~ .game__itemText {
+    .game__highlight {
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
   }
 }
 
-.bingo__formFooter {
+.game__formFooter {
   align-items: center;
   display: flex;
   [type="submit"] {
@@ -171,7 +171,7 @@
   }
   @media (max-width: 34rem) {
     .button,
-    .bingo__reset {
+    .game__reset {
       font-size: 1.5rem;
       svg {
         width: 2rem;
@@ -179,7 +179,7 @@
     }
   }
 }
-.bingo__reset {
+.game__reset {
   appearance: none;
   align-items: center;
   border: none;
@@ -200,14 +200,14 @@
   }
 }
 
-.bingo__checkbox {
+.game__checkbox {
   order: 2;
   justify-self: flex-end;
 }
 
 @media print {
-  .bingo__stampSvg,
-  .bingo__highlight,
+  .game__stampSvg,
+  .game__highlight,
   .button {
     display: none;
   }
