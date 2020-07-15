@@ -67,6 +67,9 @@ const items = [
   "A song with a rude word",
   "A Star Is Born",
   "A song from Nashville",
+  "Original Sound switches off",
+  "An guitar in an alternative tuning",
+  "It's Britney, bitch.",
 ];
 
 // Utility function for shuffling a passed array
