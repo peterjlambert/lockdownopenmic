@@ -70,6 +70,7 @@ const items = [
   "Original Sound switches off",
   "An guitar in an alternative tuning",
   "It's Britney, bitch.",
+  "Pete's got the running order wrong!"
 ];
 
 // Utility function for shuffling a passed array
