@@ -5,16 +5,14 @@ layout: "layouts/home.html"
 showSiteHeader: true
 showSitefooter: true
 show:
-  isLive: false
+  isLive: true
   title: We're live from 8pm!
-  subTitle: Grab a drink and join the fun.
+  subTitle: It's a our 20th show! Grab a drink and join the fun.
   link: "https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09"
 nextShow:
-  title: "20th Week-iversary Show"
-  date: "Tuesday 4th August"
+  title: "Next Show"
+  date: "Tuesday 11th August"
   time: "8pm"
   timeZone: "BST"
   calendarLink: "/cal/lockdown_open_mic.ics"
 ---
-
-Can you believe we've been doing this for twenty weeks!? Join us on Tuesday for a Greatest Hits show - play your own favourites from five months of locked down open mic-ing.
