@@ -7,7 +7,7 @@ showSitefooter: true
 show:
   isLive: true
   title: We're live from 8pm!
-  subTitle: It's a our 20th show! Grab a drink and join the fun.
+  subTitle: Grab a drink and join the fun.
   link: "https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09"
 nextShow:
   title: "Next Show"
