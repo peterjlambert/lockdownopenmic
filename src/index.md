@@ -1,7 +1,7 @@
 ---
 title: "Lockdown Open Mic - A virtual open mic for the lockdown generation"
 description: 
-  Musicians, poets, comics, plate-spinners. Got an urge to perform in this time of social isolation? We’re here for you. The pubs and clubs are closed and your favourite local open-mic night is sadly on hiatus. Join our virtual, online open mic and give us a bit of entertainment.
+  Amateur musicians, poets, comics, plate-spinners. Got an urge to perform in this time of social isolation? We’re here for you. The pubs and clubs are closed and your favourite local open-mic night is sadly on hiatus. Join our friendly virtual, online open mic and share in the entertainment. Anything goes; singing, acoustic music, spoken word, comedy. Whatever you've got, we'd love to see it.
 layout: "layouts/home.html"
 showSiteHeader: true
 showSitefooter: true
