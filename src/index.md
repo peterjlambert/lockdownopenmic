@@ -6,14 +6,17 @@ layout: "layouts/home.html"
 showSiteHeader: true
 showSitefooter: true
 show:
-  isLive: false
+  isLive: true
   title: We're live from 8pm!
   subTitle: Grab a drink and join the fun.
   link: "https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09"
 nextShow:
-  title: "Next Show"
-  date: "Tuesday 1st September"
+  title: "Next Show - Switcheroo Week"
+  date: "Tuesday 8th September"
   time: "8pm"
   timeZone: "BST"
   calendarLink: "/cal/lockdown_open_mic.ics"
 ---
+Over the last twenty four weeks we've heard hundreds of songs on the Lockdown Open Mic. All of them have been amazing. On our 25th show, Lockdown Open Mic regulars will perform songs <em>previously performed</em> by other Lockdown Open Mic-ers.
+
+As always, non-regulars and audience members are encouraged to join in. We're easy going - perform your own thing if you want. But if you want to join in the theme, [Here's a Spotify playlist](https://open.spotify.com/playlist/1rAMjvYuCi4OFfrGSnT6Vc?si=7p4YW5FwSFeD8jb52G3Qzw) of some of the songs we've had so far.
