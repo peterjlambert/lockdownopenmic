@@ -6,7 +6,7 @@ layout: "layouts/home.html"
 showSiteHeader: true
 showSitefooter: true
 show:
-  isLive: true
+  isLive: false
   title: We're live from 8pm!
   subTitle: Grab a drink and join the fun.
   link: "https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09"
