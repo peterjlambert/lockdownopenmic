@@ -11,7 +11,7 @@ show:
   subTitle: Grab a drink and join the fun.
   link: "https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09"
 nextShow:
-  title: "Next Show - Switcheroo Week"
+  title: "Next Show"
   date: "Tuesday 15th September"
   time: "8pm"
   timeZone: "BST"
