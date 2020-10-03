@@ -15,3 +15,21 @@
   --color-special: #f3428a;
   --color-special-contrast: #ffffff;
 }
+
+.rockdown {
+  --color-lightest: #222222;
+  --color-darkest: #ffffff;
+  --color-primary: #ffffff;
+  --color-primary-contrast: #222222;
+  --color-secondary: rgb(247, 248, 63);
+  --color-secondary-contrast: #222222;
+  --color-tertiary: rgb(248, 162, 63);
+  --color-tertiary-contrast: #222222;
+  --color-footnote: rgba(255, 255, 255, 0.8);
+  --color-disabled: rgba(34, 32, 81, 0.2);
+  --color-disabled-contrast: #222041;
+  --highlight-color: var(--color-secondary);
+  --highlight-shadow-color: #000000;
+  --color-special: rgb(248, 162, 63);
+  --color-special-contrast: #fff;
+}
