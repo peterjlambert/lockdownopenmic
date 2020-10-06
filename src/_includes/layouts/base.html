@@ -32,7 +32,7 @@
     <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'" />
     {% endfor %} {% endif %}
   </head>
-  <body class="site rockdown">
+  <body class="site">
     <div class="site__wrap">
       {% if showSiteHeader %} {% include "partials/site-head.html" %} {% endif %}
       <main tabindex="-1" id="main-content" class="site__main">{% block content %}{% endblock %}</main>
