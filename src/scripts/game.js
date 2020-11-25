@@ -31,6 +31,7 @@ const gameItem = (item, itemIndex) =>
 
 // An array of strings
 const items = [
+  '"According to the spreadsheet..."',
   'Somebody says "I love you”',
   "“I haven’t practiced this”",
   "A song from the 90s",
@@ -70,6 +71,7 @@ const items = [
   "Original Sound switches off",
   "An guitar in an alternative tuning",
   "It's Britney, bitch.",
+  "Pete's got the running order wrong!"
 ];
 
 // Utility function for shuffling a passed array

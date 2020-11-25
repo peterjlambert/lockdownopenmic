@@ -1,22 +1,18 @@
 ---
-title: "Lockdown Open Mic"
-description: Musicians, poets, comics, plate-spinners. Got an urge to perform in this time of social isolation? We’re here for you. The pubs and clubs are closed and your favourite local open-mic night is sadly on hiatus. Join our virtual open-mic and give us a bit of entertainment.
+title: "Lockdown Open Mic - A virtual open mic for the lockdown generation"
+description: Amateur musicians, poets, comics, plate-spinners. Got an urge to perform in this time of social distancing and isolation? We’re here for you. The pubs and clubs might be closed and your favourite local open-mic night sadly on hiatus but you can join our friendly virtual, online open mic and share in the entertainment. Anything goes; singing, acoustic music, spoken word, comedy. Whatever you've got, we'd love to see it.
 layout: "layouts/home.html"
 showSiteHeader: true
 showSitefooter: true
 show:
   isLive: false
-  title: We're live at 8pm!
+  title: We're live right now!
   subTitle: Grab a drink and join the fun.
   link: "https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09"
 nextShow:
-  title: "Lockdown Open Mic - Joy week!"
-  date: "Tuesday 28th July"
+  title: "Next Show:"
+  date: "Tuesday 1st December"
   time: "8pm"
-  timeZone: "BST"
+  timeZone: "GMT"
   calendarLink: "/cal/lockdown_open_mic.ics"
 ---
-
-Ever feel lonesome or blue? Well then it must be time for a Lockdown Open Mic theme week! This week's theme will be 'Joy'. Songs of happiness, songs of fun, songs of love that hasn't left and songs that make you smile when you sing them.
-
-They don't have to be up-tempo, they just have to be not sad. Smiles all around!

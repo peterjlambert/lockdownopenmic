@@ -5,10 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }}</title>
-    <meta
-      name="description"
-      content="{{ description }}"
-    />
+    <meta name="description" content="{{ description }}" />
     <link rel="apple-touch-icon" sizes="180x180" href="/images/site/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/images/site/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/images/site/favicon-16x16.png" />
@@ -16,40 +13,30 @@
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
 
-    <style>{% include "css/critical.css" %}</style>
+    <style>
+      {% include "css/critical.css" %}
+    </style>
 
-    {# Add facility for pages to delare an array of critical styles #}
-    {% if pageCriticalStyles %}
-      {% for item in pageCriticalStyles %}
-        <style>{% include item %}</style>
-      {% endfor %}
-    {% endif %}
+    {# Add facility for pages to delare an array of critical styles #} {% if pageCriticalStyles %} {% for item in
+    pageCriticalStyles %}
+    <style>
+      {% include item %}
+    </style>
+    {% endfor %} {% endif %}
 
     <link rel="stylesheet" media="print" href="/css/site.css?{{ assetHash }}" onload="this.media='all'" />
     <link rel="stylesheet" media="print" href="/fonts/fonts.css?{{ assetHash }}" onload="this.media='all'" />
 
-    {# Add facility for pages to declare an array of stylesheet paths #}
-    {% if pageStylesheets %}
-      {% for item in pageStylesheets %}
-        <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'" />
-      {% endfor %}
-    {% endif %}
-
+    {# Add facility for pages to declare an array of stylesheet paths #} {% if pageStylesheets %} {% for item in
+    pageStylesheets %}
+    <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'" />
+    {% endfor %} {% endif %}
   </head>
   <body class="site">
-
     <div class="site__wrap">
-
-      {% if showSiteHeader %}
-        {% include "partials/site-head.html" %}
-      {% endif %}
-      <main tabindex="-1" id="main-content" class="site__main">
-        {% block content %}{% endblock %}
-      </main>
-      {% if showSiteFooter %}
-        {% include "partials/site-foot.html" %}
-      {% endif %}
-
+      {% if showSiteHeader %} {% include "partials/site-head.html" %} {% endif %}
+      <main tabindex="-1" id="main-content" class="site__main">{% block content %}{% endblock %}</main>
+      {% if showSiteFooter %} {% include "partials/site-foot.html" %} {% endif %}
     </div>
   </body>
 </html>
