@@ -5,14 +5,14 @@ layout: "layouts/home.html"
 showSiteHeader: true
 showSitefooter: true
 show:
-  isLive: false
+  isLive: true
   title: We're live right now!
   subTitle: Grab a drink and join the fun.
   link: "https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09"
 nextShow:
   title: "Next Show"
-  date: "Tuesday 23rd March - Anniversary Show"
+  date: "Tuesday 30th March"
   time: "8pm"
-  timeZone: "GMT"
+  timeZone: "GMT+1"
   calendarLink: "/cal/lockdown_open_mic.ics"
 ---
