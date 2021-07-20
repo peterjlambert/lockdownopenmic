@@ -11,7 +11,7 @@ show:
   link: "https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09"
 nextShow:
   title: "Next Show"
-  date: "Tuesday 20th July"
+  date: "Tuesday 27th July"
   time: "8pm"
   timeZone: "BST"
   calendarLink: "/cal/lockdown_open_mic.ics"
