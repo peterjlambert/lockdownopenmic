@@ -13,6 +13,6 @@ nextShow:
   title: "Next Show"
   date: "Tuesday 2nd November"
   time: "8pm"
-  timeZone: "BST"
+  timeZone: "GMT"
   calendarLink: "/cal/lockdown_open_mic.ics"
 ---
