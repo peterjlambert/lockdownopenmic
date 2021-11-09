@@ -6,7 +6,7 @@ showSiteHeader: true
 showSitefooter: true
 show:
   isLive: true
-  title: Live Every Tuesday at 8PM (UK)
+  title: Live Every Tuesday at 8PM GMT
   subTitle: Grab a drink and join the fun!
   link: "https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09"
 nextShow:
