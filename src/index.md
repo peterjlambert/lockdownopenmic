@@ -12,7 +12,7 @@ show:
 nextShow:
   title: "Every Other Tuesday at 9PM (UK)"
   date: ""
-  time: "8pm"
+  time: "9pm"
   timeZone: "GMT"
   calendarLink: "/cal/lockdown_open_mic.ics"
 ---
