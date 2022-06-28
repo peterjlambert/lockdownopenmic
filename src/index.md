@@ -10,7 +10,7 @@ show:
   subTitle: Grab a drink and join the fun.
   link: "https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09"
 nextShow:
-  title: "Live Other Every Tuesday at 9PM GMT"
+  title: "Every Other Tuesday at 9PM (UK)"
   date: ""
   time: "8pm"
   timeZone: "GMT"
