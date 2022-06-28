@@ -6,11 +6,11 @@ showSiteHeader: true
 showSitefooter: true
 show:
   isLive: true
-  title: Live Every Other Tuesday at 9PM GMT
+  title: Every Other Tuesday at 9PM GMT
   subTitle: Grab a drink and join the fun!
   link: "https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09"
 nextShow:
-  title: "Live Every Other Tuesday at 9PM (UK)"
+  title: "Every Other Tuesday at 9PM (UK)"
   date: ""
   time: "9pm"
   timeZone: "GMT"
