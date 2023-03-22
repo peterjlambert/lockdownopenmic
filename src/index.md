@@ -10,7 +10,7 @@ show:
   subTitle: Grab a drink and join the fun.
   link: "https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09"
 nextShow:
-  title: "We are now unlocked!"
+  title: "Lockdown Open Mic is now closed 🥲"
   date: ""
   time: "9pm"
   timeZone: "GMT"
