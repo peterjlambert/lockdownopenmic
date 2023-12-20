@@ -5,14 +5,15 @@ layout: "layouts/home.html"
 showSiteHeader: true
 showSitefooter: true
 show:
-  isLive: false
+  isLive: true
   title: Every Other Tuesday at 9PM GMT
   subTitle: Grab a drink and join the fun!
-  link: "https://zoom.us/j/750958957?pwd=K2ZJSkhRbEVqdHFuUzFkWW1xM2ZUdz09"
+  link: "https://us06web.zoom.us/j/89332000873?pwd=woEICDBOWrlPcFpUaqM7SQHWio0LHT.1"
 nextShow:
-  title: "Lockdown Open Mic is now closed 🥲"
-  date: ""
+  title: "Lockdown Open Mic Holiday Special"
+  date: "Wednesday 20th December 2024"
   time: "9pm"
   timeZone: "GMT"
   calendarLink: "/cal/lockdown_open_mic.ics"
 ---
+
