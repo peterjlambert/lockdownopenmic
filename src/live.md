@@ -7,7 +7,7 @@ showSitefooter: true
 show:
   isLive: true
   title: Holiday Special 2024
-  subTitle: 8PM GMT, Wednesaday 20th December
+  subTitle: 8PM GMT, Wednesday 20th December
   link: "https://us06web.zoom.us/j/89332000873?pwd=woEICDBOWrlPcFpUaqM7SQHWio0LHT.1"
 nextShow:
   title: "Lockdown Open Mic Holiday Special"
